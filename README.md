@@ -18,7 +18,7 @@ No cloud. No API keys. No rented GPUs. Every number below came off a machine in 
 ![Python](https://img.shields.io/badge/python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![vLLM](https://img.shields.io/badge/serving-vLLM-orange?style=flat-square)
-![Hardware](https://img.shields.io/badge/4%C3%97RTX%203090%20%C2%B7%20Blackwell%2072GB-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Hardware](https://img.shields.io/badge/11%C3%97RTX%203090%20%C2%B7%205090%20%C2%B7%20RTX%20PRO%205000%20%C2%B7%202%C3%97DGX%20Spark-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Cloud](https://img.shields.io/badge/cloud-none-2ea44f?style=flat-square)
 
 </div>
@@ -26,6 +26,8 @@ No cloud. No API keys. No rented GPUs. Every number below came off a machine in 
 ---
 
 Two threads run through everything here: **agents that ship finished, validated software** — not snippets — and **making big models cheaper to run** on hardware you can actually buy. Around both sits the unglamorous layer nobody writes: the thermal logging, the fan curves, the launch topology, the session dashboards. Results get published either way, including the ones that didn't work.
+
+**The lab:** 2× DGX Spark · two 4× RTX 3090 boxes · a third box with 3× RTX 3090 + an RTX PRO 5000 Blackwell (72 GB) · an RTX 5090. Eleven 3090s is how you end up publishing benchmarks about *interconnect topology* instead of guessing about it — and why the thermal and fan-curve tooling below exists at all.
 
 ---
 
