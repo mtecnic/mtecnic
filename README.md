@@ -61,7 +61,6 @@ Autonomy is easy. *Finished* is the hard part.
 | [**cadillac**](https://github.com/mtecnic/cadillac) | Autonomous coding agent: a sentence in, a validated app out. 12-stage pipeline (SPEC → … → CRITIC → RUNTIME → PACKAGE) with operational gates, a completeness CRITIC, runtime flow verification, and surgical-mode stuck-loop recovery. Works against **any** OpenAI-compatible endpoint. **616 tests · 146 apps built · 403 lessons accumulated.** | ![★](https://img.shields.io/github/stars/mtecnic/cadillac?style=flat-square&label=★) |
 | [**cadillac-builds**](https://github.com/mtecnic/cadillac-builds) | The receipts: **26 runnable applications built unattended with zero human edits**, published from a scan of ~99 build workspaces. Every project's README lists exactly which validation checks passed — **and which didn't**. | ![★](https://img.shields.io/github/stars/mtecnic/cadillac-builds?style=flat-square&label=★) |
 | [**graphx**](https://github.com/mtecnic/graphx) | Describe a pipeline in English, get a real agentic workflow, run it in your terminal — all on your own model. Pregel-style supersteps, cyclic graphs with loops, per-step SQLite checkpointing (kill a run, `resume` continues), per-node retries + model fallback chains + budgets, human approval gates, **12 credential-wired connectors**, and `secret://` refs that never reach logs or checkpoints. **298 tests.** | ![★](https://img.shields.io/github/stars/mtecnic/graphx?style=flat-square&label=★) |
-| [**workerAI**](https://github.com/mtecnic/workerAI) | ReAct-style autonomous agent on vLLM + LangGraph — plans, reasons, and executes multi-step tasks against a library of specialized tools. | ![★](https://img.shields.io/github/stars/mtecnic/workerAI?style=flat-square&label=★) |
 
 ## 🖥️ The cockpit
 
@@ -108,12 +107,10 @@ Every figure from a repo you can clone, on hardware I own:
 | Repo | What it is | ★ |
 |---|---|---|
 | [**homestead**](https://github.com/mtecnic/homestead) | Sims-style house builder in the browser. Draw walls, rooms **detect themselves**, then paint, furnish, and walk around inside. three.js + TS, 4 runtime deps, 475 tests, zero art assets — everything generated at runtime. | ![★](https://img.shields.io/github/stars/mtecnic/homestead?style=flat-square&label=★) |
+| [**voxelpolis**](https://github.com/mtecnic/voxelpolis) | A voxel city builder in **one HTML file** — double-click it and it runs offline in any modern browser. Zone and power a city, set taxes and policies, then watch it grow through day/night, seasons, weather, traffic and disasters. Terrain, buildings, textures, sound effects and the soundtrack are **all generated procedurally at runtime** with WebGL2 + WebAudio — no install, no server, no assets. | ![★](https://img.shields.io/github/stars/mtecnic/voxelpolis?style=flat-square&label=★) |
 | [**neon**](https://github.com/mtecnic/neon) | Cyberpunk trading game where the currency is hardware. Build rigs from GPUs, RAM and CPUs; run an empire. | ![★](https://img.shields.io/github/stars/mtecnic/neon?style=flat-square&label=★) |
 | [**matrix-doom**](https://github.com/mtecnic/matrix-doom) | Matrix-themed ASCII FPS raycaster in pygame — built autonomously by an LLM code generator, shipped unedited. | ![★](https://img.shields.io/github/stars/mtecnic/matrix-doom?style=flat-square&label=★) |
 | [**airowling-novels**](https://github.com/mtecnic/airowling-novels) | **16 novels · 553,959 words · 221 chapters**, written end-to-end by an AI authoring pipeline. All first-pass, no human rewriting. | ![★](https://img.shields.io/github/stars/mtecnic/airowling-novels?style=flat-square&label=★) |
-| [**cardboard**](https://github.com/mtecnic/cardboard) | Full-stack social platform for sports card collectors — share, buy, sell, trade. | ![★](https://img.shields.io/github/stars/mtecnic/cardboard?style=flat-square&label=★) |
-| [**koding**](https://github.com/mtecnic/koding) | CodeQuest — gamified visual Python learning for kids 9+. | ![★](https://img.shields.io/github/stars/mtecnic/koding?style=flat-square&label=★) |
-| [**cblchat**](https://github.com/mtecnic/cblchat) | Real-time enterprise chat with LDAP / Active Directory auth. | ![★](https://img.shields.io/github/stars/mtecnic/cblchat?style=flat-square&label=★) |
 
 </details>
 
